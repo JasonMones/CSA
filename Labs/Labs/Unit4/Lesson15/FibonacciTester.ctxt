@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=FibonacciTester
+comment0.text=\r\n\ Author\:\ \ \ \ \ \ Mason\ Jones\r\n\ Lab\:\ \ \ \ \ \ \ \ \ 15.1\ Fibonacci\r\n\ Date\:\ \ \ \ \ \ \ \ 12/06/2023\r\n\ Description\:\ Creates\ a\ program\ that\ finds\ the\ value\ of\ the\ fibonacci\ series\ at\ a\ specified\ index,\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ both\ recursively\ and\ non-recursively,\ and\ creates\ a\ recursive\ method\ that\ multiplies\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ two\ numbers\ together\r\n\ Purpose\:\ \ \ \ \ Learn\ how\ to\ create\ recursive\ functions\ and\ solve\ problems\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+numComments=2

@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=LifeRunnerMethods
+comment1.params=PATH\ grid
+comment1.target=LifeRunnerMethods(java.lang.String,\ boolean[][])
+comment2.params=
+comment2.target=void\ loadFile()
+comment3.params=row\ column
+comment3.target=int\ checkAliveNeighbors(int,\ int)
+comment4.params=row\ column
+comment4.target=void\ nextGenState(int,\ int)
+comment5.params=
+comment5.target=void\ printGrid()
+comment6.params=
+comment6.target=boolean\ checkGrid()
+numComments=7

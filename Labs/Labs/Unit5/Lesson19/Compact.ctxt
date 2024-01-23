@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Compact
+comment0.text=\r\n\ Author\:\ \ \ \ \ \ Mason\ Jones\r\n\ Lab\:\ \ \ \ \ \ \ \ \ 19.2\ Compact\r\n\ Date\:\ \ \ \ \ \ \ \ 12/23/2023\r\n\ Description\:\ Program\ that\ reads\ a\ text\ file\ storing\ integer\ values\ and\ stores\ these\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ values\ in\ an\ integer\ array,\ and\ 'compacting'\ this\ array\ by\ removing\ \r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ the\ zero\ values\ while\ keeping\ the\ order\ of\ the\ non-zero\ values\ the\ same\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ through\ means\ of\ left\ shifting\ \r\n\ Purpose\:\ \ \ \ \ Learn\ to\ manipulate\ arrays\ in\ a\ way\ that\ puts\ numerical\ information\ in\ an\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ easier\ to\ read\ format\r\n
+comment1.params=
+comment1.target=Compact()
+comment2.params=array
+comment2.target=int[]\ increaseCapacity(int[])
+comment3.params=array
+comment3.target=int[]\ decreaseCapacity(int[])
+comment4.params=arr
+comment4.target=int[]\ shiftZeros(int[])
+comment5.params=arr
+comment5.target=int[]\ removeZeroes(int[])
+comment6.params=array
+comment6.target=void\ printArray(int[])
+numComments=7

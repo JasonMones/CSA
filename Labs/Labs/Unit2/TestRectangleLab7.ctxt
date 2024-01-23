@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=TestRectangleLab7
+comment0.text=\ \ \r\n\ Author\:\ \ \ \ \ \ Mason\ Jones\r\n\ Date\:\ \ \ \ \ \ \ \ 09/29/2023\r\n\ Lab\:\ \ \ \ \ \ \ \ \ 7.3\ Rectangle\ Methods\r\n\ Description\:\ Improves\ the\ Rectangle\ class\ in\ lab\ 6.2\ and\ adds\ several\ methods\ to\ retrieve\ information\ about\ the\ objects\ and\ change\ information\ and\ redraw\ it\r\n\ Purpose\:\ \ \ \ \ Get\ more\ familiar\ with\ calling\ methods\ from\ an\ object\ and\ creating\ more\ complex\ classes\ that\ can\ be\ instantiated\ as\ objects\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+numComments=2

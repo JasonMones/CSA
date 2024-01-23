@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Palindrome
+comment0.text=\r\n\ Author\:\ \ \ \ \ \ Mason\ Jones\r\n\ Lab\:\ \ \ \ \ \ \ \ \ 13.1\ Palindrome\r\n\ Date\:\ \ \ \ \ \ \ \ 10/26/2023\r\n\ Description\:\ A\ program\ that\ checks\ whether\ the\ string\ input\ is\ a\ palindrome\ or\ not\ and\ outputs\ the\ state\ of\ the\ string\ as\ a\ palindrome\ or\ not\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ the\ program\ only\ looks\ at\ alphanumeric\ characters\ in\ the\ string\ when\ comparing\ and\ a\ single\ character\ is\ not\ a\ palindrome\r\n\ Purpose\:\ \ \ \ \ Learn\ to\ use\ string\ methods\ such\ as\ toLowercase,\ length,\ adding\ characters,\ using\ for\ loops\ with\ strings,\ and\ basic\ algorithim\ scripting\r\n
+comment1.params=input
+comment1.target=Palindrome(java.lang.String)
+comment2.params=
+comment2.target=void\ removeNonAlpNum()
+comment3.params=
+comment3.target=java.lang.Boolean\ isPalindrome()
+numComments=4

@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=KnightsTour2
+comment1.params=startRow\ startColumn
+comment1.target=KnightsTour2(int,\ int)
+comment2.params=
+comment2.target=void\ createBoard()
+comment3.params=
+comment3.target=int\ getMoveNumber()
+comment4.params=
+comment4.target=void\ loadReferenceBoard()
+comment5.params=
+comment5.target=void\ printReferenceBoard()
+comment6.params=
+comment6.target=void\ moveKnight()
+comment7.params=
+comment7.target=void\ decreaseAccessibility()
+comment8.params=
+comment8.target=int[]\ getLowestAccessibility()
+numComments=9

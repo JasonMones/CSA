@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=LifeRunner
+comment0.text=\n\ Author\:\ \ \ \ \ \ Mason\ Jones\n\ Date\:\ \ \ \ \ \ \ \ 01/19/2024\n\ Lab\:\ \ \ \ \ \ \ \ \ 21.1\ Life\n\ Description\:\ A\ program\ that\ simulates\ life\ using\ a\ 20x20\ grid\ with\ each\ asterisk\ representing\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ an\ organism.\ If\ an\ empty\ cell\ has\ 3\ living\ organisms\ adjacent\ to\ it,\ an\ \n\ \ \ \ \ \ \ \ \ \ \ \ \ \ organism\ is\ "born".\ If\ a\ living\ cell\ has\ only\ one\ or\ no\ neighbors\ at\ all,\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ it\ "dies"\ from\ loneliness,\ but\ also\ dies\ to\ overcrowding\ with\ 4\ or\ more\ \n\ \ \ \ \ \ \ \ \ \ \ \ \ \ adjacent\ cells\ filled.\ This\ program\ goes\ up\ to\ 5\ generations\n\ Purpose\:\ \ \ \ \ Learn\ how\ to\ traverse\ through\ a\ two\ dimensional\ array,\ using\ it\ to\ simulate\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ a\ grid\ that\ can\ store\ information\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+numComments=2

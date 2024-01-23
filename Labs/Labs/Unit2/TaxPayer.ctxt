@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=TaxPayer
+comment0.text=\ \r\n\ Author\:\ \ \ \ \ \ Mason\ Jones\r\n\ Date\:\ \ \ \ \ \ \ \ 10/02/2023\r\n\ Lab\:\ \ \ \ \ \ \ \ \ 8.1\ IRS\r\n\ Description\:\ A\ program\ that\ calculates\ the\ federal\ tax\ an\ individual\ or\ married\ couple\ have\ to\ pay\ every\ year\ \r\n\ Purpose\:\ \ \ \ \ Learn\ how\ to\ use\ the\ logical\ if,\ if\ else,\ and\ else\ statements\ to\ create\ functional\ code\ based\ off\ cases\ and\ use\ the\ and\ (&&)\ and\ or(||)\ operators\ to\ create\ \r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ additional\ functionality\ for\ more\ complex\ cases\r\n
+comment1.params=income\ martialStatus
+comment1.target=TaxPayer(double,\ java.lang.String)
+comment2.params=
+comment2.target=double\ getIncome()
+comment3.params=
+comment3.target=java.lang.String\ getStatus()
+comment4.params=
+comment4.target=double\ calculateTax()
+comment5.params=
+comment5.target=double\ singleTax()
+comment6.params=
+comment6.target=double\ marriedTax()
+numComments=7

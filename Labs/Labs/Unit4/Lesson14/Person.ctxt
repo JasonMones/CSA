@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.target=Person
+comment0.text=\r\n\ Author\:\ \ \ \ \ \ Mason\ Jones\r\n\ Lab\:\ \ \ \ \ \ \ \ \ 14.1\ BackToSchool\r\n\ Date\:\ \ \ \ \ \ \ \ 12/01/2023\r\n\ Description\:\ A\ program\ that\ creates\ mutiple\ classes\ that\ stores\ information\ about\ specefic\ people\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ a\ parent\ class\ Person,\ which\ is\ extended\ by\ student\ and\ teacher,\ and\ college\ student\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ which\ extends\ student,\ which\ all\ contain\ their\ superclasses\ information\ with\ extra\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ information\ pertaining\ to\ that\ class\r\n\ Purpose\:\ \ \ \ \ Learn\ about\ inheritance\ and\ how\ subclasses\ inherit\ data\ for\ their\ parent\ classes,\ and\ \r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ how\ to\ optimize\ time\ and\ memory\ by\ not\ repeating\ information\r\n
+comment1.params=name\ age\ gender
+comment1.target=Person(java.lang.String,\ int,\ java.lang.String)
+comment2.params=
+comment2.target=java.lang.String\ toString()
+comment3.params=name
+comment3.target=void\ setName(java.lang.String)
+comment4.params=age
+comment4.target=void\ setAge(int)
+comment5.params=gender
+comment5.target=void\ setGender(java.lang.String)
+comment6.params=
+comment6.target=java.lang.String\ getName()
+comment7.params=
+comment7.target=int\ getAge()
+comment8.params=
+comment8.target=java.lang.String\ getGender()
+numComments=9

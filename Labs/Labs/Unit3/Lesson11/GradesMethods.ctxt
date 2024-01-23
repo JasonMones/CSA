@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.target=GradesMethods
+comment1.params=numGrades\ fGrade\ GPA
+comment1.target=void\ checkEligibility(int,\ boolean,\ double)
+numComments=2

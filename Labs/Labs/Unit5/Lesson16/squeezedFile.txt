@@ -1,0 +1,50 @@
+0 package Unit3.Lesson11;
+0 
+0 /**
+1 * Author:      Mason Jones
+1 * Date:        10/17/2023
+1 * Lab:         11.1 Grades
+1 * Description: A program that inputs a student's report gard and outputs their GPA and whether
+1 *              they are eligible for sports and extracirriculars or not
+1 * Purpose:     Learn how to use switch statements to test cases of the possible values of a variable
+1 */
+0 import chn.util.*;
+0 public class Grades {
+4 public static void main(String[] args) {
+8 ConsoleIO kb = new ConsoleIO();
+8 System.out.print("Input grades: ");
+8 String letterGrades = kb.readLine();
+3 
+8 char specInd;
+8 int numGrades = 0;
+8 double totalPoints = 0;
+8 boolean fGrade = false;
+8 for (int i=0;i <= letterGrades.length(); i+=2) {
+12 specInd = letterGrades.toUpperCase().charAt(i);                //first uppercase to make more efficient, then find specific characters for each grade
+12 switch (specInd) {
+16 case 'A':                                                  //case of having grade A
+19 totalPoints += 4;                                       //has value of 4, adds for GPA calc
+19 numGrades++;                                            //number of grades for GPA calc
+19 break;                                                  //breaks when case is true
+16 case 'B':                                                  //repeat for each letter grade
+20 totalPoints += 3;
+20 numGrades++;
+20 break;
+16 case 'C':
+20 totalPoints += 2;
+20 numGrades++;
+20 break;
+16 case 'D':
+20 totalPoints += 1;
+20 numGrades++;
+20 break;
+16 case 'F':
+20 numGrades++;
+20 fGrade = true;                                       //to make ineligible if f grade
+20 break;
+12 }
+8 }
+8 double GPA = totalPoints/numGrades;
+8 GradesMethods.checkEligibility(numGrades, fGrade, GPA);
+4 }
+0 }

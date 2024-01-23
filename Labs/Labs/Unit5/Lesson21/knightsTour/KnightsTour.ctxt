@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.target=KnightsTour
+comment1.params=startRow\ startColumn
+comment1.target=KnightsTour(int,\ int)
+comment10.params=row\ col
+comment10.target=boolean\ isValidPosition(int,\ int)
+comment2.params=
+comment2.target=KnightsTour()
+comment3.params=
+comment3.target=int\ getMoveNumber()
+comment4.params=
+comment4.target=void\ createBoard()
+comment5.params=
+comment5.target=void\ printBoard()
+comment6.params=
+comment6.target=int[]\ randomMovement()
+comment7.params=components
+comment7.target=boolean\ checkIfPossible(int[])
+comment8.params=
+comment8.target=void\ moveKnight()
+comment9.params=
+comment9.target=boolean\ canMoveKnight()
+numComments=11

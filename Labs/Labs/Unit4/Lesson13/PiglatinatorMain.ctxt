@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=PiglatinatorMain
+comment0.text=\r\n\ Author\:\ \ \ \ \ \ Mason\ Jones\r\n\ Lab\:\ \ \ \ \ \ \ \ \ 13.3\ Piglatinator\r\n\ Date\:\ \ \ \ \ \ \ \ 11/29/2023\r\n\ Description\:\ A\ program\ that\ translates\ several\ strings\ into\ piglatin.\ First,\ the\ program\ iterates\ through\ the\ string\ to\ check\ for\ breaks\ and\ non-alphanumeric\ characters\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ and\ substrings\ the\ main\ string\ into\ individual\ tokens\ where\ it\ is\ then\ translated\ into\ piglatin\ and\ added\ to\ a\ string\ of\ translated\ tokens\r\n\ Purpose\:\ \ \ \ \ Utilizes\ string\ methods\ such\ as\ replace\ and\ substring\ as\ well\ as\ a\ convential\ for\ loop\ to\ manipulate\ strings\ in\ a\ way\ where\ they\ can\ be\ used\r\n
+comment1.params=
+comment1.target=void\ main()
+numComments=2

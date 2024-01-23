@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=Statistics
+comment1.params=data
+comment1.target=Statistics(int[])
+comment2.params=
+comment2.target=double\ average()
+comment3.params=
+comment3.target=double\ sDev()
+comment4.params=array
+comment4.target=int[]\ increaseCapacity(int[])
+comment5.params=array
+comment5.target=int[]\ decreaseCapacity(int[])
+comment6.params=
+comment6.target=int[]\ sort()
+comment7.params=array
+comment7.target=int[]\ mode(int[])
+numComments=8

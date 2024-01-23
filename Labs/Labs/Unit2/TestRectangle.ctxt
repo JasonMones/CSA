@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=TestRectangle
+comment0.text=\r\n\ Author\:\ \ \ \ \ \ Mason\ Jones\r\n\ Date\:\ \ \ \ \ \ \ \ 9/22/2023\r\n\ Lab\:\ \ \ \ \ \ \ \ \ 6.2\ Rectangle\r\n\ Description\:\ Create\ a\ rectangle\ class\ that\ has\ arguments\ of\ x\ coordinate,\ y\ coordinate,\ width,\ and\ height\ that\ you\ can\ then\ instantiate,\ and\ has\ methods\ to\ get\ the\ perimeter,\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ get\ the\ area,\ and\ draw\ the\ rectangle\r\n\ Purpose\:\ \ \ \ \ Learn\ to\ make\ a\ class\ that\ can\ then\ be\ instantiated\ as\ an\ object,\ and\ use\ arguments\ that\ can\ be\ used\ in\ the\ object\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+numComments=2
