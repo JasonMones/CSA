@@ -1,0 +1,71 @@
+Mason Jones
+
+SAQ:
+
+public int checkForNeighbors(boolean[][] grid, int row, int col) {
+   int neighbors = 0;
+   if (row > 0 && col > 0 && grid[row - 1][col - 1]) {
+      neighbors++;
+   }
+   if (row > 0 && grid[row - 1][col]) {
+      neighbors++;
+   }
+   if (row > 0 && col < 19 && grid[row - 1][col + 1]) {
+      neighbors++;
+   }
+   if (col > 0 && grid[row][col - 1]) {
+      neighbors++;
+   }
+   if (col < 19 && grid[row][col + 1]) {
+      neighbors++;
+   }
+   if (row < 19 && col > 0 && grid[row + 1][col - 1]) {
+      neighbors++;
+   }
+   if (row < 19 && grid[row + 1][col]) {
+      neighbors++;
+   }
+   if (row < 19 && col < 19 && grid[row + 1][col + 1]) {
+      neighbors++;
+   }
+   return neighbors;
+}
+
+X X X
+X 0 X
+X X X
+
+a.)
+
+Student[][] seats;
+int seatRows, seatCols;
+
+public SeatingChart(List<Student> studentList, int rows, int cols) {
+   seatRows = rows;
+   seatCols = cols;
+   seats = new Student[rows][cols];
+   int counter = 0;
+   for (int i = 0; i < cols; i++) {
+      for (int j = 0; j < rows; j++) {
+          seats[j][i] = studentList.get(counter);
+          counter++;
+      }
+   }
+}
+
+b.)
+
+public int removeAbsentStudents(int allowedAbsences) {
+   int removedStudents = 0;
+   for (int i = 0; i < seatRows; i++) {
+      for (int j = 0; j < seatCols; j++) {
+        if (seats[i][j] != null && seats[i][j].getAbsenceCount() > allowedAbsences) {
+            seats[i][j] = null;
+            removedStudents++;
+        } 
+      }
+   }
+   return removedStudents;
+}
+
+
