@@ -1,3 +1,5 @@
+package Unit5.Lesson21;
+
 
 /**
  * Author:      Mason Jones
@@ -15,7 +17,7 @@
 public class LifeRunner
 {
     public static void main(String[] args) {
-        final String PATH = "/home/mason/development/Java/Labs/21.1 Life/life100.txt";
+        final String PATH = "C:\\Users\\mason\\Java\\CSA\\Labs\\Labs\\Unit5\\Lesson21\\life100.txt";
         boolean[][] grid = new boolean[20][20];
         LifeRunnerMethods lrm = new LifeRunnerMethods(PATH, grid);
         lrm.loadFile();

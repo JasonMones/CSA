@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=GuessingGameMethods
+comment1.params=
+comment1.target=GuessingGameMethods()
+comment2.params=
+comment2.target=int\ split()
+comment3.params=
+comment3.target=int\ randomGuess()
+comment4.params=guessCondition\ guess
+comment4.target=boolean\ checkCorrectness(java.lang.String,\ int)
+numComments=5

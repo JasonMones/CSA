@@ -2,6 +2,7 @@ package Daily;
 
 import java.util.ArrayList;
 import apcslib.*;
+import chn.util.ConsoleIO;
 public class WarmupMethods {
     double numa,numb;
     public WarmupMethods() {
@@ -191,4 +192,35 @@ public class WarmupMethods {
         }
         return neighbors;
     }
+    public void guessingGame() {
+         ConsoleIO kb = new ConsoleIO();
+         GuessingGameMethods ggm = new GuessingGameMethods();
+         int counter = 0;
+         int currentGuess = ggm.randomGuess();
+         boolean continueLoop;
+         String currentGuessCondition;
+         String whileCondition;
+         
+         System.out.println("Do you want to play the guessing game?");
+         whileCondition = kb.readLine();
+         if (whileCondition.equals("yes")) {
+         do  {
+             System.out.println("The computer's guess is: " + currentGuess+"\n\n");
+             System.out.println("Am I correct?");
+             System.out.println("Please enter one: h-high, l-low, c-correct");
+             currentGuessCondition = kb.readLine();
+             continueLoop = ggm.checkCorrectness(currentGuessCondition, currentGuess);
+             if (continueLoop) {
+                 break;
+             }
+             currentGuess = ggm.split();
+             counter++;
+         }
+         while (!continueLoop);
+         System.out.println("Guessing game done.");
+         if (counter > 0) {
+         System.out.println("Took "+counter+" tries.");
+         }
+        }
+     }
 }

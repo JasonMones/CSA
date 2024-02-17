@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Pig
+comment0.text=\r\n\ Description\:\ Gives\ the\ sounds\ and\ the\ names\ of\ the\ animals\r\n\ Purpose\:\ To\ learn\ how\ to\ use\ inheritance,\ Polymorphism,\ and\ Abstract\ Classes\r\n\ Author\:\ Kevin\ Dunkel\r\n\ Version\:\ 2/15/24\r\n\ Lab\:\ 29.2\r\n
+comment1.params=type\ sound
+comment1.target=Pig(java.lang.String,\ java.lang.String)
+comment2.params=
+comment2.target=java.lang.String\ getSound()
+comment3.params=
+comment3.target=java.lang.String\ getType()
+numComments=4

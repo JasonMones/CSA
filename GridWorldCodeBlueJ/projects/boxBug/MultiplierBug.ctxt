@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=MultiplierBug
+comment1.params=startRow\ startCol\ length
+comment1.target=MultiplierBug(int,\ int,\ int)
+comment2.params=
+comment2.target=void\ act()
+comment3.params=
+comment3.target=boolean\ canMove()
+numComments=4

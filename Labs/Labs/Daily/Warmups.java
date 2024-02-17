@@ -23,6 +23,7 @@ public class Warmups
        final int SMALLESTINARRAY = 11;
        final int CLEARZEROES = 12;
        final int CHECKNEIGHBORS = 13;
+       final int GUESSER = 14;
        String string = "";
        int[] array = {0,6,13,0,0,76,33,0,0,0,4,29,21,0,86,0,32,66,0,0};
        ArrayList<Integer> list = new ArrayList<Integer>();
@@ -57,6 +58,7 @@ public class Warmups
              System.out.println("\n\t11-Find Smallest Number");
              System.out.println("\n\t12-Removes Zeroes");
              System.out.println("\n\t13-Check for Neighbors");
+             System.out.println("\n\t14-Guessing Game");
              System.out.print("\nWhich warmup would you like to do? ");
              warmup = kb.readInt();
            
@@ -124,6 +126,8 @@ public class Warmups
                      int neighbor = warm.checkForNeighbors(bioMatrix,2,2);
                      System.out.println("\nNumber of Neighbors in matrix = " + neighbor);
                      break;
+                 case GUESSER:
+                     warm.guessingGame();
                  default:
                      System.out.println("Invalid input");
                 }

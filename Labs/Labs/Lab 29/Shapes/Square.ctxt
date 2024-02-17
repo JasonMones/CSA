@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Square
+comment0.text=\r\n\ Description\:\ Prints\ out\ the\ shape,\ perimeter,\ and\ area\r\n\ Purpose\:\ To\ continue\ to\ learn\ how\ to\ use\ abstract\ classes\r\n\ Author\:\ Kevin\ Dunkel\r\n\ Version\:\ 2/15/24\r\n\ Lab\:\ 29.2\r\n
+comment1.params=name\ side
+comment1.target=Square(java.lang.String,\ double)
+comment2.params=
+comment2.target=void\ calcPerimeter()
+comment3.params=
+comment3.target=void\ calcArea()
+numComments=4

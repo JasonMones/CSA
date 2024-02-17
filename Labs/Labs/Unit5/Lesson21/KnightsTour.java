@@ -1,4 +1,4 @@
-package Unit5.Lesson21.knightsTour;
+package Unit5.Lesson21;
 
 import java.util.Arrays;
 import java.util.List;

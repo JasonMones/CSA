@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=NamedCow
+comment0.text=\r\n\ Description\:\ Gives\ the\ sounds\ and\ the\ names\ of\ the\ animals\r\n\ Purpose\:\ To\ learn\ how\ to\ use\ inheritance,\ Polymorphism,\ and\ Abstract\ Classes\r\n\ Author\:\ Kevin\ Dunkel\r\n\ Version\:\ 2/15/24\r\n\ Lab\:\ 29.2\r\n
+comment1.params=type\ name\ sound
+comment1.target=NamedCow(java.lang.String,\ java.lang.String,\ java.lang.String)
+comment2.params=
+comment2.target=java.lang.String\ getName()
+numComments=3
