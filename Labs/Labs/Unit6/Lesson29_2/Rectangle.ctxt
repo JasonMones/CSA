@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Rectangle
+comment1.params=name\ length\ width
+comment1.target=Rectangle(java.lang.String,\ double,\ double)
+comment2.params=
+comment2.target=void\ calcPerimeter()
+comment3.params=
+comment3.target=void\ calcArea()
+numComments=4

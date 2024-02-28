@@ -52,7 +52,7 @@ public class CrabCritter extends Critter
             if (a != null)
                 actors.add(a);
         }
-
+        
         return actors;
     }
 
