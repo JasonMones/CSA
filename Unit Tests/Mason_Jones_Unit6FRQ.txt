@@ -1,0 +1,39 @@
+Mason Jones
+Unit 6 FRQ
+
+a. private int numUnder() {
+    int numOfActors = theGrid.getOccupiedLocations().size();
+    int numOfLocations = theGrid.getNumRows()*theGrid.getNumCols();
+    if (!((numOfActors/numOfLocations) > minDensity)) {
+	while (true) {
+	   numOfActors++;
+	   if (numOfActors/numOfLocations > minDensity) {
+	        numOfActors -= gr.getOccupiedLocations().size(); 
+		break;
+	   }
+	}
+        return numOfActors;
+    }
+    else return 0;
+}
+
+b. private Location randomLocation() {
+    Location randomLoc;
+    do {
+        randomLoc = new Location((int) (Math.random*theGrid.getNumRows()) - 1, (int) (Math.random*theGrid.getNumCols()) - 1);
+    }   while(!theGrid.isValid(randomLoc));
+    return randomLoc;
+}
+
+c. public void addBugs (int numToAdd) {
+    Location randomLoc;
+    for (int i = 0; i < numToAdd; i++) {
+        while (true) {
+           randomLoc = randomLocation();
+           if (theGrid.get(randomLoc) == null) {
+              theGrid.put(randomLoc, new Bug());
+              break;
+           }
+	}
+    }
+}

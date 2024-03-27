@@ -1,9 +1,4 @@
 
-/** * Processable.java 05/10/07 * * @author - Jane Doe * @author - Period n * @author - Id nnnnnnn * * @author - I received help from ... * */ /** * Provides the process method that allows <code>WorkerAnt</code> * actors to polymorphically get food from the
-Efim Beliakov <efimbeliakov@gmail.com>
-?
-You
-?
 /**
  * Processable.java  05/10/07
  *?

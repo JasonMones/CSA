@@ -1,9 +1,9 @@
 #BlueJ package file
-dependency1.from=StatisticsRunning
-dependency1.to=Statistics
+dependency1.from=compactRunning
+dependency1.to=Compact
 dependency1.type=UsesDependency
-dependency2.from=compactRunning
-dependency2.to=Compact
+dependency2.from=StatisticsRunning
+dependency2.to=Statistics
 dependency2.type=UsesDependency
 objectbench.height=92
 objectbench.width=996

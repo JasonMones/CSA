@@ -1,15 +1,15 @@
 #BlueJ package file
-dependency1.from=KnightTourTest
-dependency1.to=KnightsTour2
+dependency1.from=LifeRunner
+dependency1.to=LifeRunnerMethods
 dependency1.type=UsesDependency
-dependency2.from=LifeRunner
-dependency2.to=LifeRunnerMethods
+dependency2.from=KnightTourTest
+dependency2.to=KnightsTour2
 dependency2.type=UsesDependency
-objectbench.height=99
+objectbench.height=100
 objectbench.width=645
 package.divider.horizontal=0.6
-package.divider.vertical=0.8492063492063493
-package.editor.height=593
+package.divider.vertical=0.8477891156462586
+package.editor.height=592
 package.editor.width=559
 package.editor.x=666
 package.editor.y=0

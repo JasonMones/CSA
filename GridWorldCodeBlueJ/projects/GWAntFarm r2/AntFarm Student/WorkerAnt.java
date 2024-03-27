@@ -173,6 +173,7 @@ public class WorkerAnt extends Critter implements Processable
     public void makeMove(Location loc)
     {
         if (!loc.equals(getLocation())) {
+            setDirection(getLocation().getDirectionToward(loc));
             moveTo(loc);
         }
         else {

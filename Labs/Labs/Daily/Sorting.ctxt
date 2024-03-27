@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=Sorting
+comment1.params=array
+comment1.target=Sorting(int[])
+comment2.params=
+comment2.target=int[]\ sort()
+comment3.params=array
+comment3.target=int[]\ increaseCapacity(int[])
+comment4.params=array
+comment4.target=int[]\ decreaseCapacity(int[])
+numComments=5

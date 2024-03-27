@@ -1,7 +1,5 @@
 package Unit2;
 
- 
-
 
 import chn.util.*;
 public class TicTacToeTest
@@ -18,7 +16,7 @@ public class TicTacToeTest
         boolean notValidCell;
         boolean inputInvalid;
         boolean gameFinished;
-        
+
         filledCells = 0;
         run = true;
         while (run) {
@@ -26,10 +24,10 @@ public class TicTacToeTest
             coordinates = getInput();
             xCell = coordinates[0];
             yCell = coordinates[1];
-            
+
             notValidCell = true;
             gameFinished = false;
-             while (notValidCell) {
+            while (notValidCell) {
                 if (ttt.checkCell(xCell, yCell)) {
                     notValidCell = false;
                     ttt.drawX(xCell, yCell);
@@ -58,7 +56,7 @@ public class TicTacToeTest
             coordinates = getInput();
             xCell = coordinates[0];
             yCell = coordinates[1];
-            
+
             notValidCell = true;
             while (notValidCell) {
                 if (ttt.checkCell(xCell, yCell)) {
@@ -83,12 +81,13 @@ public class TicTacToeTest
             }
         }
     }
+
     private static int[] getInput() {
         int[] coordinates = new int[2];
         boolean invalidInput = true;
         int xCoordinate;
         int yCoordinate;
-        
+
         do {
             xCoordinate = kb.readInt();
             yCoordinate = kb.readInt();
@@ -99,20 +98,22 @@ public class TicTacToeTest
                 invalidInput = false;
             }
         }
-            while (invalidInput);
+        while (invalidInput);
         coordinates[0] = xCoordinate;
         coordinates[1] = yCoordinate;
         return coordinates;
     }
+
     private static boolean notValidInput(int xCoord, int yCoord) {
         if (xCoord < 1 || xCoord > 3) {
             return true;
         }
         if (yCoord < 1 || yCoord > 3) {
-            return true;
+            return true;                            
         }
         return false;
     }
+
     private static boolean checkDraw(int filledCells) {
         if (filledCells>8) {
             System.out.println("Draw!");
@@ -121,3 +122,4 @@ public class TicTacToeTest
         return false;
     }
 }
+

@@ -1,15 +1,21 @@
 #BlueJ package file
-objectbench.height=92
+dependency1.from=PalindromeMain
+dependency1.to=Palindrome
+dependency1.type=UsesDependency
+dependency2.from=PiglatinatorMain
+dependency2.to=Piglatinator
+dependency2.type=UsesDependency
+objectbench.height=88
 objectbench.width=761
 package.divider.horizontal=0.6
-package.divider.vertical=0.7991214057507987
-package.editor.height=394
+package.divider.vertical=0.807108626198083
+package.editor.height=398
 package.editor.width=675
-package.editor.x=297
+package.editor.x=296
 package.editor.y=283
 package.frame.height=600
 package.frame.width=800
-package.numDependencies=0
+package.numDependencies=2
 package.numTargets=5
 package.showExtends=true
 package.showUses=true

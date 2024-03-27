@@ -1,5 +1,4 @@
-/**
- * AntFarmRunner.java  05/10/07
+/* AntFarmRunner.java  05/10/07
  *
  * @author - Robert Glen Martin
  * @author - School for the Talented and Gifted
@@ -32,9 +31,9 @@ import info.gridworld.grid.Location;
  */
 public class AntFarmRunner
 {
-	public static void main(String[] args)
-	{
-		Grid<Actor> grid = new BoundedGrid<Actor>(19, 19);
+    public static void main(String[] args)
+    {
+        Grid<Actor> grid = new BoundedGrid<Actor>(19, 19);
         ActorWorld world = new ActorWorld(grid);
 
         world.add(new Location(2, 2), new Cookie());
@@ -42,8 +41,8 @@ public class AntFarmRunner
         world.add(new Location(9, 15), new QueenAnt());
 
         for (int i = 0; i < 25; i++)
-        	world.add(new WorkerAnt());
+            world.add(new WorkerAnt());
 
         world.show();
-	}
+    }
 }
