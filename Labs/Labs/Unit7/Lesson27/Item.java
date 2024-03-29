@@ -21,13 +21,13 @@ public class Item implements Comparable<Item>
     public int compareTo(Item otherObject){
         int otherId = otherObject.getId();
         if (myId < otherId) {
-            return -1;
+            return 1;
         }
         else if (myId == otherId) {
             return 0;
         }
         else {
-            return 1;
+            return -1;
         }
     }
     @Override

@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=WordCountMethods
+comment1.params=path
+comment1.target=WordCountMethods(java.lang.String)
+comment2.params=
+comment2.target=void\ printWords()
+comment3.params=list
+comment3.target=Word[]\ toWord(java.util.ArrayList)
+comment4.params=input
+comment4.target=java.util.ArrayList\ parse(chn.util.FileInput)
+comment5.params=list\ first\ last
+comment5.target=void\ wordQuickSort(Word[],\ int,\ int)
+numComments=6

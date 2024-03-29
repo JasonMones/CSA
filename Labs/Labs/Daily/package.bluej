@@ -1,12 +1,12 @@
 #BlueJ package file
-dependency1.from=WarmupMethods
-dependency1.to=GuessingGameMethods
+dependency1.from=Warmups
+dependency1.to=WarmupMethods
 dependency1.type=UsesDependency
 dependency2.from=WarmupMethods
-dependency2.to=Sorting
+dependency2.to=GuessingGameMethods
 dependency2.type=UsesDependency
-dependency3.from=Warmups
-dependency3.to=WarmupMethods
+dependency3.from=WarmupMethods
+dependency3.to=Sorting
 dependency3.type=UsesDependency
 objectbench.height=173
 objectbench.width=836
