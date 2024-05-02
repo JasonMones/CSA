@@ -1,9 +1,9 @@
 #BlueJ package file
-dependency1.from=Main
-dependency1.to=WordCountMethods
+dependency1.from=WordCountMethods
+dependency1.to=Word
 dependency1.type=UsesDependency
-dependency2.from=WordCountMethods
-dependency2.to=Word
+dependency2.from=Main
+dependency2.to=WordCountMethods
 dependency2.type=UsesDependency
 objectbench.height=92
 objectbench.width=761

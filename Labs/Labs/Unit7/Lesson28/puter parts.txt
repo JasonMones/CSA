@@ -1,0 +1,7 @@
+gpu 1070
+cpu ryzen 5600g
+ram 16gb
+ssd 1tb
+mb aorus b550m elite ax 
+psu corsair cx550 2023 || thermal take 500W
+
